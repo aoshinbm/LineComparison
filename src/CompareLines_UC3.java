@@ -45,7 +45,7 @@ public class CompareLines_UC3 {
         compareTo(len_line1,len_line2);
     }
 
-    private static void compareTo(double len_line1, double len_line2){
+    static void compareTo(double len_line1, double len_line2){
         if(len_line1==len_line2){
             System.out.println("Lines are equal");
         }
